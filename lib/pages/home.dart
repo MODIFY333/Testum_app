@@ -263,7 +263,7 @@ class _QuizHomeState extends State<QuizHome> {
                     children: <Widget>[
                       Icon(Icons.linear_scale, color: Colors.yellowAccent),
                       Text(
-                          " Quiz Time: ${topicsData[index]['timer'] == null ? "N/A" : "${topicsData[index]['timer']} min"} ",
+                          " Время прохождения: ${topicsData[index]['timer'] == null ? "N/A" : "${topicsData[index]['timer']} min"} ",
                           style: TextStyle(color: Colors.white))
                     ],
                   ),
@@ -278,13 +278,13 @@ class _QuizHomeState extends State<QuizHome> {
                               id: topicsData[index]['id'],
                               title: "${topicsData[index]['title']}",
                               description:
-                                  "Quiz Description : ${topicsData[index]['description']}",
+                                  "Описание теста: ${topicsData[index]['description']}",
                               perQMark:
-                                  "Quiz Per Question Marks : ${topicsData[index]['per_q_mark']}",
+                                  "Баллы за вопрос: ${topicsData[index]['per_q_mark']}",
 //                          marks:json.decode(topicsData[index]['per_q_mark']) as num,
                               marks: topicsData[index]['per_q_mark'],
                               timer:
-                                  " Quiz Time: ${topicsData[index]['timer'] == null ? "N/A" : "${topicsData[index]['timer']} min"} ",
+                                  " Время теста: ${topicsData[index]['timer'] == null ? "N/A" : "${topicsData[index]['timer']} min"} ",
                               time: m,
                             ));
                     Navigator.of(context).push(router);
