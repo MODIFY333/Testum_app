@@ -115,7 +115,7 @@ class _QuizHomeState extends State<QuizHome> {
                     context: context,
                     builder: (context) => new CustomAlertDialog(
                       title: new Text(
-                        'Are you sure?',
+                        'Вы уверены?',
                         textAlign: TextAlign.center,
                       ),
                       content: new Container(
@@ -129,18 +129,18 @@ class _QuizHomeState extends State<QuizHome> {
                         ),
                         child: new Column(
                           children: <Widget>[
-                            new Text('Do you want to exit'),
+                            new Text('Вы хотите выйти'),
                           ],
                         ),
                       ),
                       actions: <Widget>[
                         new FlatButton(
                           onPressed: () => Navigator.of(context).pop(false),
-                          child: new Text('No'),
+                          child: new Text('Нет'),
                         ),
                         new FlatButton(
                           onPressed: () => exit(0),
-                          child: new Text('Yes'),
+                          child: new Text('Да'),
                         ),
                       ],
                     ),
@@ -164,14 +164,14 @@ class _QuizHomeState extends State<QuizHome> {
                     child: Icon(Icons.play_circle_outline, color: Colors.white),
                   ),
                   title: Text(
-                    "Data Not Available",
+                    "Данные не доступны",
                     style: TextStyle(
                         color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                   subtitle: Row(
                     children: <Widget>[
                       Icon(Icons.linear_scale, color: Colors.yellowAccent),
-                      Text("no topics are available",
+                      Text("Темы не доступны",
                           style: TextStyle(color: Colors.white))
                     ],
                   ),
@@ -206,7 +206,7 @@ class _QuizHomeState extends State<QuizHome> {
                     context: context,
                     builder: (context) => new CustomAlertDialog(
                       title: new Text(
-                        'Are you sure?',
+                        'Вы уверены?',
                         textAlign: TextAlign.center,
                       ),
                       content: new Container(
@@ -220,18 +220,18 @@ class _QuizHomeState extends State<QuizHome> {
                         ),
                         child: new Column(
                           children: <Widget>[
-                            new Text('Do you want to exit'),
+                            new Text('Вы хотите выйти'),
                           ],
                         ),
                       ),
                       actions: <Widget>[
                         new FlatButton(
                           onPressed: () => Navigator.of(context).pop(false),
-                          child: new Text('No'),
+                          child: new Text('Нет'),
                         ),
                         new FlatButton(
                           onPressed: () => exit(0),
-                          child: new Text('Yes'),
+                          child: new Text('Да'),
                         ),
                       ],
                     ),
