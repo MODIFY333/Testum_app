@@ -110,7 +110,7 @@ class LoginFormState extends State<LoginForm> {
         final response = await http.get(APIData.quizCatApi,
             // ignore: deprecated_member_use
             headers: {
-              HttpHeaders.AUTHORIZATION: "Bearer ${user['access_token']}!"
+              HttpHeaders.authorizationHeader: "Bearer ${user['access_token']}!"
             });
 
         setState(() {
