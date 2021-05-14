@@ -266,9 +266,9 @@ class ProfileEditState extends State<ProfileEdit> {
         validator: (val) {
           if (val.length < 6) {
             if (val.length == 0) {
-              return 'Password не может быть пустым';
+              return 'Пароль не может быть пустым';
             } else {
-              return 'Password слишком короткий';
+              return 'Пароль слишком короткий';
             }
           } else {
             return null;
