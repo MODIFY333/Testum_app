@@ -25,7 +25,7 @@ void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     title: 'Testum',
-    color: Colors.blue[900],
+    color: Color.fromRGBO(62, 130, 148, 1),
   ));
 }
 

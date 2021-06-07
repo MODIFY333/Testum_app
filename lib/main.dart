@@ -8,7 +8,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     title: 'Testum',
     home: LoadingScreen(),
-    color: Colors.blue[900],
+    color: Color.fromRGBO(62, 130, 148, 1),
   ));
 }
 
@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
                 scale: 2.0,
                 width: 120.0,
                 height: 120.0,
-                color: Colors.blue[900].withOpacity(1.0),
+                color: Color.fromRGBO(62, 130, 148, 1),
               ),
               SizedBox(
                 height: 10.0,
@@ -43,7 +43,7 @@ class _HomeState extends State<Home> {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontFamily: "AvenirNext",
-                    color: Colors.blue[900]),
+                    color: Color.fromRGBO(62, 130, 148, 1)),
               ),
               SizedBox(
                 height: 5.0,
@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
               new ListTile(
                 title: new MaterialButton(
                     height: 50.0,
-                    color: Colors.blue[900],
+                    color: Color.fromRGBO(62, 130, 148, 1),
                     textColor: Colors.white,
                     child: new Text("Войти"),
                     onPressed: () {

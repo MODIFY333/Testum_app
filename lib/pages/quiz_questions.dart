@@ -14,7 +14,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     title: 'Testum',
     home: QuizQuestion(),
-    color: Colors.blue[900],
+    color: Color.fromRGBO(62, 130, 148, 1),
   ));
 }
 
@@ -612,7 +612,7 @@ class QuizQuestionState extends State<QuizQuestion>
                                           bottom: 8.0),
                                       minWidth: 400.0,
                                       height: 50.0,
-                                      color: Colors.blue[900],
+                                      color: Color.fromRGBO(62, 130, 148, 1),
                                       onPressed: () {
                                         Future<String> _login() async {
                                           try {
@@ -1146,7 +1146,7 @@ class QuizQuestionState extends State<QuizQuestion>
                                           bottom: 8.0),
                                       minWidth: 400.0,
                                       height: 50.0,
-                                      color: Colors.blue[900],
+                                      color: Color.fromRGBO(62, 130, 148, 1),
                                       onPressed: () {
                                         Future<String> _login() async {
                                           try {
@@ -1661,7 +1661,7 @@ class QuizQuestionState extends State<QuizQuestion>
                                           bottom: 8.0),
                                       minWidth: 400.0,
                                       height: 50.0,
-                                      color: Colors.blue[900],
+                                      color: Color.fromRGBO(62, 130, 148, 1),
                                       onPressed: () {
                                         Future<String> _login() async {
                                           try {
@@ -2203,7 +2203,7 @@ class QuizQuestionState extends State<QuizQuestion>
                                           bottom: 8.0),
                                       minWidth: 400.0,
                                       height: 50.0,
-                                      color: Colors.blue[900],
+                                      color: Color.fromRGBO(62, 130, 148, 1),
                                       onPressed: () {
                                         Future<String> _login() async {
                                           try {

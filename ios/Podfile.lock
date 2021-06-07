@@ -16,11 +16,11 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_youtube (from `.symlinks/plugins/flutter_youtube/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - "XCDYouTubeKit (from `https://github.com/jatin19121990/XCDYouTubeKit`, branch `hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525`)"
 
 SPEC REPOS:
   trunk:
     - Reachability
-    - XCDYouTubeKit
 
 EXTERNAL SOURCES:
   connectivity:
@@ -31,6 +31,16 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_youtube/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
+  XCDYouTubeKit:
+    :branch: "hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525"
+    :git: https://github.com/jatin19121990/XCDYouTubeKit
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  XCDYouTubeKit:
+    :commit: 8389cd3a1beab8bba76649ff870125b580d9a049
+    :git: https://github.com/jatin19121990/XCDYouTubeKit
+    :submodules: true
 
 SPEC CHECKSUMS:
   connectivity: c4130b2985d4ef6fd26f9702e886bd5260681467
@@ -40,6 +50,6 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   XCDYouTubeKit: b120aced3d8638ffb570c5450cddb5a1dac448c7
 
-PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+PODFILE CHECKSUM: ca5e578bd0553c8375fe94610d58e58cf772f6a0
 
 COCOAPODS: 1.10.1

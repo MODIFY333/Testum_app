@@ -26,7 +26,7 @@ class CommonDrawerState extends State<CommonDrawer> {
             accountName: new Text(name),
             accountEmail: new Text(email),
             currentAccountPicture: new CircleAvatar(
-              backgroundColor: Colors.blue[900],
+              backgroundColor: Color.fromRGBO(62, 130, 148, 1),
               child: new Text(nameInitial),
             ),
             decoration: BoxDecoration(color: Color.fromRGBO(58, 66, 86, 1.0)),

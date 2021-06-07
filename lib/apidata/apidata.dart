@@ -15,5 +15,7 @@ class APIData {
   static const String registerApi = domainApiLink + "register";
 
   //For Youtube Video Your Youtube API key
-  static const String youtubeApi = "AIzaSyBSl3zRa6WTxFtd3R7MGaSMJtF5ymk_LWE";
+  static const String youtubeApi = "AIzaSyA4gK0bsM9W8J93X7UEJFcTq9TK5xfOYS8";
+  //AIzaSyBSl3zRa6WTxFtd3R7MGaSMJtF5ymk_LWE
+  
 }

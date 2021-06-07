@@ -419,7 +419,7 @@ class ProfileEditState extends State<ProfileEdit> {
                           "ПОДТВЕРДИТЬ",
                           style: TextStyle(color: Colors.white),
                         ),
-                        color: Colors.blue[900],
+                        color: Color.fromRGBO(62, 130, 148, 1),
                         onPressed: () {
                           _submit();
                           //  profileData();

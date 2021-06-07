@@ -1,0 +1,19 @@
+Target dependency graph (7 targets)
+Flutter in Pods
+Reachability in Pods
+XCDYouTubeKit in Pods
+connectivity in Pods, depends on:
+Flutter in Pods (explicit)
+Reachability in Pods (explicit)
+flutter_youtube in Pods, depends on:
+Flutter in Pods (explicit)
+XCDYouTubeKit in Pods (explicit)
+path_provider in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Flutter in Pods (explicit)
+Reachability in Pods (explicit)
+XCDYouTubeKit in Pods (explicit)
+connectivity in Pods (explicit)
+flutter_youtube in Pods (explicit)
+path_provider in Pods (explicit)

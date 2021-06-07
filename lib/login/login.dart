@@ -149,9 +149,9 @@ class LoginFormState extends State<LoginForm> {
           email = userEmail;
           nameInitial = userName[0];
           if (userRole == 'A') {
-            role = "Admin";
+            role = "Администратор";
           } else {
-            role = "Student";
+            role = "Студент";
           }
           if (userMobile == null) {
             mobile = "N/A";
@@ -283,7 +283,7 @@ class LoginFormState extends State<LoginForm> {
                 scale: 2.0,
                 width: 120.0,
                 height: 120.0,
-                color: Colors.blue[900].withOpacity(1.0),
+                color: Color.fromRGBO(62, 130, 148, 1).withOpacity(1.0),
               ),
               SizedBox(
                 height: 10.0,
@@ -294,7 +294,7 @@ class LoginFormState extends State<LoginForm> {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontFamily: "AvenirNext",
-                    color: Colors.blue[900]),
+                    color: Color.fromRGBO(62, 130, 148, 1)),
               ),
               SizedBox(
                 height: 5.0,
@@ -338,7 +338,7 @@ class LoginFormState extends State<LoginForm> {
                           "ВОЙТИ",
                           style: TextStyle(color: Colors.white),
                         ),
-                        color: Colors.blue[900],
+                        color: Color.fromRGBO(62, 130, 148, 1),
                         onPressed: () {
                           // ignore: unnecessary_statements
                           _isButtonDisabled ? null : _submit();
@@ -360,7 +360,7 @@ class LoginFormState extends State<LoginForm> {
                           new TextSpan(
                             text: 'Нажмите здесь. ',
                             style: new TextStyle(
-                                color: Colors.blue[900],
+                                color: Color.fromRGBO(62, 130, 148, 1),
                                 fontSize: 17.5,
                                 fontStyle: FontStyle.italic,
                                 fontWeight: FontWeight.bold),

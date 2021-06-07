@@ -50,7 +50,7 @@ class CommonScaffold extends StatelessWidget {
       body: bodyData,
       floatingActionButton: floatBtn
           ? FloatingActionButton(
-              backgroundColor: Colors.blue[900],
+              backgroundColor: Color.fromRGBO(62, 130, 148, 1),
               foregroundColor: Colors.white,
               tooltip: "edit",
               onPressed: () {

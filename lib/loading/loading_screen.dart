@@ -78,9 +78,9 @@ class _LoadingScreenState extends State<LoadingScreen> {
             nameInitial = userName[0];
             email = userEmail;
             if (userRole == 'A') {
-              role = "Admin";
+              role = "Администратор";
             } else {
-              role = "Student";
+              role = "Студент";
             }
             if (userMobile == null) {
               mobile = "N/A";
@@ -131,7 +131,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
         children: <Widget>[
           Container(
             decoration: BoxDecoration(
-              color: Colors.blue[900],
+              color: Color.fromRGBO(62, 130, 148, 1),
             ),
           ),
           Column(
@@ -147,10 +147,10 @@ class _LoadingScreenState extends State<LoadingScreen> {
                       radius: 55.0,
                       child: new Image.asset(
                         'images/logo.png',
-                        scale: 2.2,
-                        width: 120.0,
-                        height: 120.0,
-                        color: Colors.blue[900].withOpacity(1.0),
+                        scale: 3,
+                        width: 70.0,
+                        height: 70.0,
+                        color: Color.fromRGBO(62, 130, 148, 1).withOpacity(1.0),
                       ),
                     ),
                     Padding(padding: EdgeInsets.only(top: 50.0)),

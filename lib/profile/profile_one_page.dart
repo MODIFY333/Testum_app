@@ -40,7 +40,7 @@ class _ProfileOnePageState extends State<ProfileOnePage> {
                     children: <Widget>[
                       Container(
                         child: CircleAvatar(
-                          backgroundColor: Colors.blue[900],
+                          backgroundColor: Color.fromRGBO(62, 130, 148, 1),
                           child: new Text(nameInitial),
                           //foregroundColor: Colors.green,
                           radius: 30.0,

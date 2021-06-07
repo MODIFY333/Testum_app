@@ -10,6 +10,9 @@ project 'Runner', {
   'Release' => :release,
 }
 
+pod 'XCDYouTubeKit', git: 'https://github.com/jatin19121990/XCDYouTubeKit', branch: 'hotfix/Can-Not-Play-video-any-more---XCDYouTubeVideoErrorDomain-Code=-3-#525', submodules: true
+
+
 def flutter_root
   generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'Generated.xcconfig'), __FILE__)
   unless File.exist?(generated_xcode_build_settings_path)
