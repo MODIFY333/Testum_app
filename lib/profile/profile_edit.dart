@@ -45,17 +45,17 @@ class ProfileEditState extends State<ProfileEdit> {
   void initState() {
     _emailController.text = email;
     _nameController.text = name;
-    if (mobile == 'N/A') {
+    if (mobile == 'Н/Д') {
       _mobileController.text = '';
     } else {
       _mobileController.text = mobile;
     }
-    if (city == 'N/A') {
+    if (city == 'Н/Д') {
       _cityController.text = '';
     } else {
       _cityController.text = city;
     }
-    if (address == 'N/A') {
+    if (address == 'Н/Д') {
       _addressController.text = '';
     } else {
       _addressController.text = address;
@@ -152,17 +152,17 @@ class ProfileEditState extends State<ProfileEdit> {
           nameInitial = userName[0];
           email = userEmail;
           if (userMobile == null) {
-            mobile = "N/A";
+            mobile = "Н/Д";
           } else {
             mobile = userMobile;
           }
           if (userAddress == null) {
-            address = "N/A";
+            address = "Н/Д";
           } else {
             address = userAddress;
           }
           if (userCity == null) {
-            city = "N/A";
+            city = "Н/Д";
           } else {
             city = userCity;
           }

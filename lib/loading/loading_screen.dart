@@ -83,17 +83,17 @@ class _LoadingScreenState extends State<LoadingScreen> {
               role = "Студент";
             }
             if (userMobile == null) {
-              mobile = "N/A";
+              mobile = "Н/Д";
             } else {
               mobile = userMobile;
             }
             if (userAddress == null) {
-              address = "N/A";
+              address = "Н/Д";
             } else {
               address = userAddress;
             }
             if (userCity == null) {
-              city = "N/A";
+              city = "Н/Д";
             } else {
               city = userCity;
             }
