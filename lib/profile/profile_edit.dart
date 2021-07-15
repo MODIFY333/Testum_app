@@ -232,6 +232,7 @@ class ProfileEditState extends State<ProfileEdit> {
     );
   }
 
+
   Widget _emailField() {
     return new Container(
       padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 30.0),
@@ -306,15 +307,38 @@ class ProfileEditState extends State<ProfileEdit> {
     );
   }
 
-  Widget _mobileField() {
+  // Widget _mobileField2() {
+  //   return new Container(
+  //     padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 30.0),
+  //     child: TextField(
+  //       controller: _mobileController,
+  //       decoration: new InputDecoration(
+  //           hintText: 'Введите мобильный телефон',
+  //           labelText: 'Номер телефона',
+  //           contentPadding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0)
+  //           ),
+        
+  //     ),
+    
+  //   );
+  // }
+     Widget _mobileField() {
     return new Container(
       padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 30.0),
-      child: TextField(
+      child: TextFormField(
         controller: _mobileController,
-        decoration: new InputDecoration(
-            hintText: 'Введите мобильный телефон',
-            labelText: 'Номер телефона',
-            contentPadding: EdgeInsets.fromLTRB(0.0, 10.0, 0.0, 10.0)),
+        decoration: InputDecoration(
+          hintText: 'Введите мобильный телефон',
+          labelText: 'Номер телефона',
+        ),
+        validator: (val) {
+          if (val.length != 11) {
+            return 'Телефон должен состоять из 11 цифр!';
+          } else {
+            return null;
+          }
+        },
+        onSaved: (val) => _mobileController.text = val,
       ),
     );
   }
